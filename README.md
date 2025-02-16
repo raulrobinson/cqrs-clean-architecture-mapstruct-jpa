@@ -4,7 +4,7 @@ This project is a simple example of how to implement a CQRS architecture with Sp
 
 ## CQRS Structure
 
-```txt
+```shell
 /src/main/java/com/rasysbox/ws
 │── /application                # Application layer (CQRS - Commands & Queries)
 │    ├── /commands              # Modify data commands (Create, Update, Delete)
