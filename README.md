@@ -36,10 +36,13 @@ This project is a simple example of how to implement a CQRS architecture with Sp
 ## How to run
 
 1. Run the command `mvn clean install` to build the project.
-2. Run the command `mvn spring-boot:run -e SPRING_PROFILES_ACTIVE=local` to start the application.
-3. Access the URL `http://localhost:9095/swagger-ui/index.html` to see the API documentation.
-4. Access the URL `http://localhost:9095/h2-console` to see the H2 Database console.
-5. Use the following credentials to access the H2 Database console:
+2. Run the command `$env:SPRING_PROFILES_ACTIVE="test"` to set the environment variable.
+   (For Windows, use the command `set SPRING_PROFILES_ACTIVE=test`)
+   (For Linux, use the command `export SPRING_PROFILES_ACTIVE=test`)
+3. Run the command `mvn spring-boot:run` to start the application.
+4. Access the URL `http://localhost:9095/swagger-ui/index.html` to see the API documentation.
+5. Access the URL `http://localhost:9095/h2-console` to see the H2 Database console.
+6. Use the following credentials to access the H2 Database console:
     - JDBC URL: `jdbc:h2:mem:clean-architecture`
     - User Name: `sa`
     - Password: ``
