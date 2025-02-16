@@ -1,0 +1,24 @@
+# Server Configuration
+server:
+  port: 9095
+
+spring:
+  # Database Configuration
+  sql:
+    init:
+      platform: h2
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 1
+  jpa:
+    show-sql: false
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
