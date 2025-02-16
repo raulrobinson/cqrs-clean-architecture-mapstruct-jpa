@@ -1,0 +1,13 @@
+${AnsiColor.RED}
+:::::::::      :::      ::::::::  :::   :::  ::::::::  :::::::::   ::::::::  :::    :::
+:+:    :+:   :+: :+:   :+:    :+: :+:   :+: :+:    :+: :+:    :+: :+:    :+: :+:    :+:
++:+    +:+  +:+   +:+  +:+         +:+ +:+  +:+        +:+    +:+ +:+    +:+  +:+  +:+
++#++:++#:  +#++:++#++: +#++:++#++   +#++:   +#++:++#++ +#++:++#+  +#+    +:+   +#++:+
++#+    +#+ +#+     +#+        +#+    +#+           +#+ +#+    +#+ +#+    +#+  +#+  +#+
+#+#    #+# #+#     #+# #+#    #+#    #+#    #+#    #+# #+#    #+# #+#    #+# #+#    #+#
+###    ### ###     ###  ########     ###     ########  #########   ########  ###    ###
+${AnsiColor.DEFAULT}
+ :: ${AnsiColor.GREEN}Powered by Spring Boot ${spring-boot.version}
+ :: ${AnsiColor.GREEN}Java JDK ${java.version}
+ :: ${AnsiColor.BRIGHT_GREEN}Microservice Name${AnsiColor.DEFAULT} :: ${spring.application.name}
+ :: ${AnsiColor.BLUE}by Raul Bolivar Navas${AnsiColor.DEFAULT} :: https://rasysbox.com
