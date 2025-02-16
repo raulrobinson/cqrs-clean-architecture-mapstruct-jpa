@@ -12,7 +12,7 @@ This project is a simple example of how to implement a CQRS architecture with Sp
 │    ├── /dtos                  # DTOs for data transfer
 │── /domain                     # Domain layer (Entities and Contracts)
 │    ├── /models                # Domain models (UserDomain)
-│    ├── /repositories          # Interfaces of Repositories (Abstraccions)
+│    ├── /repositories          # Interfaces of Repositories (Abstractions)
 │── /infrastructure             # Infrastructure layer (Persistence and Adapters)
 │    ├── /adapters              # Adapters (Repositories, Mappers, etc)
 │    ├── /controllers           # Controllers (REST)
