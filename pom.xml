@@ -12,7 +12,7 @@
     <artifactId>cqrs-clean-architecture-mapstruct-jpa</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>cqrs-clean-architecture-mapstruct-jpa</name>
-    <description>cqrs-clean-architecture-mapstruct-jpa</description>
+    <description>API for CQRS Clean Architecture with MapStruct and JPA</description>
     <url>https://github.com/raulrobinson/cqrs-clean-architecture-mapstruct-jpa</url>
     <licenses>
         <license>
